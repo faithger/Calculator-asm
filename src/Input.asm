@@ -34,10 +34,15 @@ InterpretInput:
     mov rcx Loadings ; Iterations for total loop
 
     mov rsi InputString
+    mov rbx, 8 ; Load 8 for the number for bytes into 
 
     .loop_interpretation:
 
     mov rax, [rsi] ; Load first 8 byte of rsi into rax
+
+    .loop_InterpretBlock:
+
+
 
 
 
