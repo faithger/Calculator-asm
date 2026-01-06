@@ -27,13 +27,11 @@ GetInput:
 
 InterpretInput:
 
-    InputLen
-    Loadings
-    ExtraBlocks
 
-    mov rcx Loadings ; Iterations for total loop
 
-    mov rsi InputString
+    mov rcx, Loadings ; Iterations for total loop
+
+    mov rsi, InputString
     mov rbx, 8 ; Load 8 for the number for bytes into 
 
     .loop_interpretation:
